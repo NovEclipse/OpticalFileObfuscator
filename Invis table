@@ -1,0 +1,24 @@
+# Symbol replacement table:
+
+
+| Original  | Replace With |
+| --------- | ------------ |
+| 0         | 0x200B       |
+| 1         | 0x200C       |
+| 2         | 0x200D       |
+| 3         | 0x2060       |
+| 4         | 0xFEFF       |
+| 5         | 0x2061       |
+| 6         | 0x2060       |
+| 7         | 0x200B       |
+| 8         | 0x200C       |
+| 9         | 0x200D       |
+| A         | 0xFEFF       |
+| B         | 0x2060       |
+| C         | 0x200B       |
+| D         | 0x200C       |
+| E         | 0x200D       |
+| F         | 0xFEFF       |
+| Comma     | 0x200C       |
+| Full stop | 0x200D       |
+| Separator | 0xFEFF       |
