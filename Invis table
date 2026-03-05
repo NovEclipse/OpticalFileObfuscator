@@ -1,22 +1,23 @@
 # Symbol replacement table:
 
 
-| Original  | Replace With |
-| --------- | ------------ |
-| 0         | 0x200B       |
-| 1         | 0x200C       |
-| 2         | 0x200D       |
-| 3         | 0x2060       |
-| 4         | 0xFEFF       |
-| 5         | 0x2061       |
-| 6         | 0x2060       |
-| 7         | 0x200B       |
-| 8         | 0x200C       |
-| 9         | 0x200D       |
-| A         | 0xFEFF       |
-| B         | 0x2060       |
-| C         | 0x200B       |
-| D         | 0x200C       |
-| E         | 0x200D       |
-| F         | 0xFEFF       |
-| Separator | 0xFEFF       |
+
+| #   | Name                      | Code   |
+| --- | ------------------------- | ------ |
+| 0   | Zero Width Space          | U+200B |
+| 1   | Zero Width Non-Joiner     | U+200C |
+| 2   | Zero Width Joiner         | U+200D |
+| 3   | Left-to-Right Mark        | U+200E |
+| 4   | Right-to-Left Mark        | U+200F |
+| 5   | Zero Width No-Break Space | U+FEFF |
+| 6   | Soft Hyphen               | U+00AD |
+| 7   | Hair Space                | U+200A |
+| 8   | Thin Space                | U+2009 |
+| 9   | Non-breaking Space        | U+00A0 |
+| A   | Mongolian Vowel Separator | U+180E |
+| B   | Word Joiner               | U+2060 |
+| C   | ZERO WIDTH CFAR           | U+2064 |
+| D   | ZERO WIDTH CFR            | U+2065 |
+| E   | ZERO WIDTH VJ             | U+2066 |
+| F   | ZERO WIDTH VIR            | U+2067 |
+| Separator  | ZERO WIDTH SITD   | U+2068 |
