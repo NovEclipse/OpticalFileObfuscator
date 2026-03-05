@@ -19,6 +19,4 @@
 | D         | 0x200C       |
 | E         | 0x200D       |
 | F         | 0xFEFF       |
-| Comma     | 0x200C       |
-| Full stop | 0x200D       |
 | Separator | 0xFEFF       |
