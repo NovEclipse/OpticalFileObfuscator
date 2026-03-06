@@ -1,3 +1,3 @@
 # OpticalFileObfuscator
-A script that makes the file contents look invisible.
+A script that makes the file contents of a text file look nearly invisible.
 
