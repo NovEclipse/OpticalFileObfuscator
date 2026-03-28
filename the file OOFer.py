@@ -7,8 +7,9 @@ hexmap = {
 sep = '\u2068'
 
 try:
-    with open("SampleFile.txt", "r", encoding = "latin-1") as infile:
-        with open("SampleFile.oof", "w", encoding = "utf-8") as outfile:
+    filein = str(input("Enter your file name without extension(e.g., for `doc.txt` enter `doc): "))
+    with open((filein + ".txt"), "r", encoding = "latin-1") as infile:
+        with open((filein + ".oof"), "w", encoding = "utf-8") as outfile:
             while True:
                 char = infile.read(1)
                 if not char:
@@ -26,3 +27,4 @@ try:
 
 except Exception as e:
     print(f"Error occurred: {e}")
+
